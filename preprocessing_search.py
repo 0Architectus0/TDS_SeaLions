@@ -63,7 +63,7 @@ def replaceColor(img):
     return img
     
 # Convert to float: Important for subtraction later which won't work with uint8
-orig = io.imread('/Users/benharris/Documents/Projects/SeaLions/images/0.jpg')
+orig = io.imread('/Users/benharris/Documents/Projects/SeaLions/images/test4.jpg')
 orig = replaceColor(orig)
 gray = rgb2gray(orig)
 #image = io.imread('/Users/benharris/Documents/Projects/SeaLions/images/4.jpg',flatten=True)
